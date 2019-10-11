@@ -1,13 +1,5 @@
-.button {
-  font-size: 15px;
-  text-align: center;
-  margin-top: 10px;
-  padding-top: 10px;
-  background-color: #22283A;
-  color: white;
-  height: 15%;
-  width: 50%;
-  border-radius: 12px;
+.mixin {
+  background-color: #F6F7F8;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -281,8 +273,8 @@ footer {
   padding-top: 10px;
   background-color: #22283A;
   color: white;
-  height: 15%;
-  width: 50%;
+  height: 16%;
+  width: 20%;
   border-radius: 12px;
 }
 .home .walk .walk-text .btn:hover {
@@ -351,7 +343,7 @@ footer {
   }
   .home .visit-planets p {
     margin-top: 13px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 400px;
   }
   .home .walk {
@@ -376,15 +368,14 @@ footer {
     margin-left: 10%;
   }
   .home .walk .walk-text .btn {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     margin-top: 10px;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-top: 10px;
     background-color: #22283A;
     color: white;
-    height: 15%;
-    width: 95%;
+    height: 100%;
+    width: 100%;
     border-radius: 12px;
   }
   .home .walk .walk-text .btn:hover {

@@ -67,7 +67,7 @@
           }
 
           .btn {
-            .button;
+            .button(15px,16%,20%);
 
             &:hover {
               background-color: #454A59;
@@ -94,7 +94,7 @@
 
 .home {
 
-  .mixin(#F6F7F8);
+  .mixin();
 
   .intro {
     display: flex;
@@ -159,7 +159,7 @@
 
     p {
       margin-top: 13px;
-      font-size: 1.5rem;
+      .size-mixin(2rem);
       width: 400px;
     }
   }
@@ -190,16 +190,7 @@
       }
 
       .btn {
-        font-size: 12px;
-        text-align: center;
-        margin-top: 10px;
-        padding-top: 30px;
-        padding-bottom: 15px;
-        background-color: #22283A;
-        color: white;
-        height: 15%;
-        width: 95%;
-        border-radius: 12px;
+        .button(15px,100%, 100%);
 
           &:hover {
             background-color: #454A59;
