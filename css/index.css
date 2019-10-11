@@ -286,7 +286,7 @@ footer {
   border-radius: 12px;
 }
 .home .walk .walk-text .btn:hover {
-  color: #81848E;
+  background-color: #454A59;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -381,7 +381,7 @@ footer {
     border-radius: 12px;
   }
   .home .walk .walk-text .btn:hover {
-    color: #81848E;
+    background-color: #454A59;
   }
   .home .walk .walk-img {
     width: 800px;
