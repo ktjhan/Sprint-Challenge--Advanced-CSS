@@ -1,1 +1,21 @@
 // Mixins Here
+
+.button(@size, @height, @width) {
+  font-size: @size;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: #22283A;
+  color: white;
+  height: @height;
+  width: @width;
+  border-radius: 12px;
+}
+
+.mixin {
+  background-color: @porcelain;
+}
+
+.size-mixin(@big) {
+  font-size: @big;
+}
